@@ -3,7 +3,7 @@
 
 angular.module('dashboard.dashboard', [])
     .factory('backend', ['$http', function backendFactory($http) {
-        var backend_location = '/components/backend.yaml';
+        var backend_location = '/spend-publishing-dashboard/components/backend.yaml';
         this.get = function(value) {
                        return $http.get(backend_location)
                            .then(function(response) {
