@@ -10,7 +10,6 @@ var SourcePage = require('./components/pages/Source.react');
 var Header = require('./components/panels/Header.react');
 var Footer = require('./components/panels/Footer.react');
 var AppNode = document.getElementById('application');
-var APIUtils = require('./utils/APIUtils.js');
 
 
 var App = React.createClass({

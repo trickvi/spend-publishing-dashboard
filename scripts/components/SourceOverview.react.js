@@ -10,11 +10,11 @@ var SourceOverview = React.createClass({
         return (
             <Panel>
                 <ul>
-                <li>Score: {CalcUtils.totalScore(this.props.results)}</li>
-                <li>Revision: {this.props.source.revision}</li>
-                <li>Period: {}</li>
-                <li>Timestamp: {}</li>
-                <li>Publisher: <Link to="publishers" params={{lookup: this.props.source.publisher_id}}>{this.props.source.publisher_id}</Link></li>
+                    <li>Score: {CalcUtils.totalScore(this.props.results)}</li>
+                    <li>Revision: {this.props.source.revision}</li>
+                    <li>Period: {}</li>
+                    <li>Timestamp: {}</li>
+                    <li>Publisher: <Link to="publishers" params={{lookup: this.props.source.publisher_id}}>{this.props.source.publisher_id}</Link></li>
                 </ul>
             </Panel>
         );
